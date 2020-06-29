@@ -1,0 +1,55 @@
+DOM segmentation : 
+    differents blocks are
+        - home :
+            1-  banner (company brand, search bar, book-now btn-sm)
+            2-  section  :
+                i-  nav (links : home, about us, services, product, blog, contact)
+                ii- slogan 
+                iii- icons contact
+                iv- btn down
+        
+        - about us :
+            1-  header-about-us
+            2-  imgs-about-us
+            3-  contents-about-us
+
+        - services :
+            1-  title
+            2-  group of services :
+                i-  each single service (img, title, text-content, book-now btn)
+        
+        - product :
+            1-  title
+            2-  nav product (all, facials, body care) 
+            3-  group of products :
+                i-  each single product (img, title, price)
+
+        - section superfluous : title, btn appointment
+            
+        - blog : 
+            1-  title
+            2-  group of blog post :
+                i-  each single blog post (img, content post (title, text, btn read more, date of the post))
+
+        - contact us :
+            1-  block interactivity
+            2-  block contact : 
+                i-  help
+                ii- shopping with us
+                iii- privacy & legal
+                vi- contact form
+            3-  footer : copyright, icons contact
+
+
+Stylisation : 
+    bg-color : #E5B710 (btn)
+               rgba(229, 183, 16, 0.26) (nav)
+               rgba(196, 196, 196, 0.51) (email)
+
+    font logo : Belleza (logo)
+                Open Sans (body)
+                charm (header of about us)
+
+    color : black (all)
+            white-50 or light or #F8F9FA (some)
+            secondary (footer)
