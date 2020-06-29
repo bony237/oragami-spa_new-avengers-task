@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Belleza;
+    src: url('custom-font/Belleza-regular.ttf');
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url('custom-font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Charm;
+    src: url('custom-font/Charm-Regular.ttf');
+}
+
+.single-font-brand-name {
+    font-family: Belleza;
+}
+
+.single-font-title-about-us {
+    font-family: Charm;
+}
+
+.colorSingle1 {
+    color: #E5B710;
+}
+
+.shadow-btn {
+    box-shadow: 2px 2px 8px gray;
+}
+
+* {
+    font-family: Open Sans;
+}
+
+.bgColor-banner {
+    background-color: #0D0D0F;
+}
+
+.bgColor-nav-header {
+    background-color: rgba(229, 183, 16, 0.26);
+}
+
+.bgColor-btn {
+    background-color: #E5B710;
+}
+

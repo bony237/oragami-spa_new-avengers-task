@@ -44,12 +44,14 @@ DOM segmentation :
 Stylisation : 
     bg-color : #E5B710 (btn)
                rgba(229, 183, 16, 0.26) (nav)
+               #0D0D0F (banner)
                rgba(196, 196, 196, 0.51) (email)
 
-    font logo : Belleza (logo)
+    font familly logo : Belleza (logo)
                 Open Sans (body)
                 charm (header of about us)
 
     color : black (all)
             white-50 or light or #F8F9FA (some)
             secondary (footer)
+            #E5B710 (btn-blog)
