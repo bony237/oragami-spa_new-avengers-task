@@ -13,6 +13,10 @@
     src: url('custom-font/Charm-Regular.ttf');
 }
 
+* {
+    font-family: Open Sans;
+}
+
 .single-font-brand-name {
     font-family: Belleza;
 }
@@ -25,23 +29,49 @@
     color: #E5B710;
 }
 
-.shadow-btn {
-    box-shadow: 2px 2px 8px gray;
-}
-
-* {
-    font-family: Open Sans;
-}
-
-.bgColor-banner {
-    background-color: #0D0D0F;
-}
-
-.bgColor-nav-header {
-    background-color: rgba(229, 183, 16, 0.26);
-}
-
 .bgColor-btn {
     background-color: #E5B710;
 }
 
+.shadow-btn {
+    box-shadow: 2px 2px 8px gray;
+}
+
+
+/*Style banner*/
+#banner {
+    position: relative;
+    background-color: #0D0D0F;
+    z-index: 0;
+}
+
+#banner::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(229, 183, 16, 0.205);
+}
+
+/*end Style banner*/
+
+#section-home {
+    border-top: solid lightgrey 3px;
+    background: url("images/gomage.png") center border-box;
+}
+
+#section-home  .div-nav {
+    background-color: rgba(229, 183, 16, 0.26);
+}
+
+#section-home  .div-nav nav {
+    background-color: rgba(49, 39, 4, 0.411);
+}
+
+#section-home  .home-others {
+    background-color: rgba(0, 0, 0, 0.34);
+}
