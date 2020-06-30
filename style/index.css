@@ -97,3 +97,8 @@
     z-index: 1;
 }
 /*end Section About us*/
+
+/*Section Product*/
+.active-filter-products {
+    border-bottom: solid 2px #E5B710;
+}
