@@ -37,6 +37,7 @@
     box-shadow: 2px 2px 8px gray;
 }
 
+/*Section Home*/
 
 /*Style banner*/
 #banner {
@@ -57,6 +58,17 @@
     background-color: rgba(229, 183, 16, 0.205);
 }
 
+@media (max-width: 576px) {
+    #banner {
+        background-color: #E5B710;
+    }
+    #search-bar {
+        background-color: white;
+    }
+
+    
+}
+
 /*end Style banner*/
 
 #section-home {
@@ -75,3 +87,9 @@
 #section-home  .home-others {
     background-color: rgba(0, 0, 0, 0.34);
 }
+
+/*end Section Home*/
+
+
+/*Section About us*/
+/*end Section About us*/
