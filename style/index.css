@@ -58,7 +58,7 @@
     background-color: rgba(229, 183, 16, 0.205);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     #banner {
         background-color: #E5B710;
     }
@@ -92,4 +92,8 @@
 
 
 /*Section About us*/
+#about-us .about-us-imgs:last-child {
+    top: -15%;
+    z-index: 1;
+}
 /*end Section About us*/
