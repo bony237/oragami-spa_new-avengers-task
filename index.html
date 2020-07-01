@@ -98,20 +98,31 @@
                                 <!--Icons contact-->
                                 <div class="mr-3 mr-md-5 pr-md-4 d-flex flex-column align-items-end">
                                     <!--icons-->
-                                    <div class="my-3"> 
-                                        <span class="bg-light text-secondary rounded-pill small px-2 d-none d-md-inline">
-                                            origami@gmail.com</span><span class="fa fa-envelope colorSingle1 bg-white p-2 rounded-circle"></span>
+                                    <div class="my-1"> 
+                                        <span class="fa fa-envelope my-3 colorSingle1 bg-white p-2 rounded-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="origami@gmail.com"></span>
                                     </div>
-                                    <span class="fa fa-instagram my-3 colorSingle1 bg-white p-2 rounded-circle"></span>
-                                    <span class="fa fa-twitter my-3 colorSingle1 bg-white p-2 rounded-circle"></span>
-                                    <span class="fa fa-facebook-official my-3 colorSingle1 bg-white p-2 rounded-circle"></span>
+
+                                    <div class="my-1"> 
+                                        <span class="fa fa-instagram my-3 colorSingle1 bg-white p-2 rounded-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="origami-instagram"></span>
+                                    </div>
+
+                                    <div class="my-1"> 
+                                        <span class="fa fa-twitter my-3 colorSingle1 bg-white p-2 rounded-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="origami-twitter"></span>
+                                    </div>
+
+                                    <div class="my-1"> 
+                                        <span class="fa fa-facebook my-3 colorSingle1 bg-white p-2 rounded-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="origami-facebook"></span>
+                                    </div>                                    
+                                    
                                 </div>
                             </div>
 
                             <!--Btn down-->
                             <div class="text-center">
-                                <!--icons-->
-                                <span class="fa fa-chevron-down fa-5x"></span>
+                                <div class="m-auto btn text-white d-inline-block rounded-circle p-3 custom-border" id="home-chevron-down">
+                                    <!--icons-->                             
+                                    <span class="fa fa-chevron-down fa-3x"></span>
+                                </div>
                             </div>
                         </div>                   
                     
@@ -1104,6 +1115,17 @@
                         });
                     }
                 });
+            });
+
+            /*Popover initialisation*/
+            $(function () {
+                $('[data-toggle="popover"]').popover();
+            });
+
+            /*Scroll to about-us*/
+            const aboutUsElm = document.querySelector("#about-us");
+            document.querySelector('#home-chevron-down').addEventListener('click', (event) => {
+                aboutUsElm.scrollIntoView({behavior: 'smooth'});
             });
         </script>
     </body>

@@ -92,6 +92,13 @@
     background-color: rgba(0, 0, 0, 0.34);
 }
 
+.custom-border {
+    border: solid 3px;
+}
+
+#home-chevron-down:hover {
+    background-color: #E5B710;
+}
 /*end Section Home*/
 
 
