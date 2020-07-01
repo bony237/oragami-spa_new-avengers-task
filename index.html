@@ -4,6 +4,9 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="style/index.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <title>Origami SPA</title>
     </head>
 
@@ -67,13 +70,13 @@
                     
                         <!--Nav-->
                         <div class="pt-2 div-nav d-none d-md-block">
-                            <nav class="d-flex justify-content-center  py-2">
-                                <a href="#home" class="mx-5 text-reset">HOME</a>
-                                <a href="#about-us" class="mx-5 text-reset">ABOUT US</a>
-                                <a href="#services" class="mx-5 text-reset">SERVICES</a>
-                                <a href="#products" class="mx-5 text-reset">PRODUCTS</a>
-                                <a href="#blog" class="mx-5 text-reset">BLOG</a>
-                                <a href="#contact" class="mx-5 text-reset">CONTACT</a>
+                            <nav class="d-flex justify-content-center flex-wrap py-2">
+                                <a href="#home" class="mx-5 my-2 text-reset">HOME</a>
+                                <a href="#about-us" class="mx-5 my-2 text-reset">ABOUT US</a>
+                                <a href="#services" class="mx-5 my-2 text-reset">SERVICES</a>
+                                <a href="#products" class="mx-5 my-2 text-reset">PRODUCTS</a>
+                                <a href="#blog" class="mx-5 my-2 text-reset">BLOG</a>
+                                <a href="#contact" class="mx-5 my-2 text-reset">CONTACT</a>
                             </nav>
                         </div>
                     
@@ -87,15 +90,22 @@
                                 </div>
         
                                 <!--Icons contact-->
-                                <div class="mr-5 pr-4 d-none d-md-block">
-                                    origami@gmail.com
+                                <div class="mr-3 mr-md-5 pr-md-4 d-flex flex-column align-items-end">
                                     <!--icons-->
+                                    <div class="my-3"> 
+                                        <span class="bg-light text-secondary rounded-pill small px-2 d-none d-md-inline">
+                                            origami@gmail.com</span><span class="fa fa-envelope colorSingle1 bg-white p-2 rounded-circle"></span>
+                                    </div>
+                                    <span class="fa fa-instagram my-3 colorSingle1 bg-white p-2 rounded-circle"></span>
+                                    <span class="fa fa-twitter my-3 colorSingle1 bg-white p-2 rounded-circle"></span>
+                                    <span class="fa fa-facebook-official my-3 colorSingle1 bg-white p-2 rounded-circle"></span>
                                 </div>
                             </div>
 
                             <!--Btn down-->
-                            <div>
+                            <div class="text-center">
                                 <!--icons-->
+                                <span class="fa fa-chevron-down fa-5x"></span>
                             </div>
                         </div>                   
                     
@@ -106,7 +116,7 @@
 
 
         <!--About us-->
-        <div class="pt-5 px-4" id="about-us">
+        <div class="pt-3 px-4" id="about-us">
             <!--Header about-us-->
                 <div class="text-center my-5">
                     <p class="h1 single-font-title-about-us">welcome to </p>
@@ -127,8 +137,12 @@
                 <!--Content about-us-->
                 <div>
                     <!--Single about-us content-->
-                    <div>
-                        <!--icons-->
+                    <div class="d-flex justify-content-between my-5">
+                        <!--icons
+                        <div class="rounded-circle mx-4 p-5 bgColor-btn d-flex justify-content-center">
+                            <img src="style/images/femme.png" alt="femme" class="w-100 ml-5">
+                            <img src="style/images/homme.png" alt="homme" class="w-100 mr-5">
+                        </div>-->
                         <div>
                             <p class="h1 font-weight-bold">Experienced Staff</p>
                             <p class="h4 my-4">Our beauty spa is top notchs, all thanks to our professional dedicate staff.</p>
@@ -136,8 +150,11 @@
                     </div>
 
                     <!--Single about-us content-->
-                    <div>
-                        <!--icons-->
+                    <div class="d-flex justify-content-between my-5">
+                        <!--icons
+                        <div class="rounded-circle mx-4 p-5 bgColor-btn">
+                            <img src="style/images/stone.png" alt="stone" class="w-100">
+                        </div>-->
                         <div>
                             <p class="h1 font-weight-bold">Wellness</p>
                             <p class="h4 my-4">We make use of ancient tested method, which will help relieve all form of stress.</p>
@@ -145,8 +162,11 @@
                     </div>
 
                     <!--Single about-us content-->
-                    <div>
-                        <!--icons-->
+                    <div class="d-flex justify-content-between">
+                        <!--icons
+                        <div class="rounded-circle mx-4 p-5 bgColor-btn">
+                            <span class="fa fa-handshake-o fa-5x text-white py-2"></span>
+                        </div>-->
                         <div>
                             <p class="h1 font-weight-bold">Trusted</p>
                             <p class="h4 my-4">Our client only comes back because they trust our service,</p>
@@ -161,7 +181,7 @@
 
 
         <!--Services-->
-            <div id="services" class="px-5">
+            <div id="services" class="p-5">
                 <!--Title services-->
                 <h1 class="text-center mb-4">SERVICES</h1>
 
@@ -343,6 +363,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -365,6 +386,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -388,6 +410,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -410,6 +433,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -432,6 +456,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -454,6 +479,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -476,6 +502,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -498,6 +525,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -520,6 +548,7 @@
                                 <!--Price single-products-->
                                 <div class="h4">
                                     <!--icons-->
+                                    <span class="fa fa-jpy"></span>
                                     250.00
                                 </div>
                             </div>
@@ -560,6 +589,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -579,6 +609,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -606,6 +637,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -625,6 +657,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -653,6 +686,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -672,6 +706,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -700,6 +735,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -719,6 +755,7 @@
                                         <!--Price single-products-->
                                         <div class="h4">
                                             <!--icons-->
+                                            <span class="fa fa-jpy"></span>
                                             250.00
                                         </div>
                                     </div>
@@ -745,6 +782,7 @@
                                     <!--Price single-products-->
                                     <div class="h4">
                                         <!--icons-->
+                                        <span class="fa fa-jpy"></span>
                                         250.00
                                     </div>
                                 </div>
@@ -757,11 +795,11 @@
                     <!--end Group of Products-->
 
                     <a href="#all-products" class="carousel-control-prev d-md-none mx-0" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon bg-secondary rounded-pill p-1" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon bg-secondary rounded-circle p-1" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a href="#all-products" class="carousel-control-next d-md-none mx-0" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon bg-secondary rounded-pill p-1" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon bg-secondary rounded-circle p-1" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
@@ -859,28 +897,30 @@
         <!--end Blog-->
 
         <!--Contact-us-->
-            <div class="border-top">
+            <div class="border-top" id="contact-us">
                 <!--Block interactivity-->
-                    <div>
+                    <div class="d-flex justify-content-center my-4">
                         <!--Single block of interactivity-->
-                        <div>
+                        <div class="mx-2 mx-md-5 px-md-3 d-flex align-items-start">
                             <!--icons-->
-                            <p class="text-light"> <span class="font-weight-bold">Store Locator </span> <br>Find the nearest store </p>
+                            <span class="fa fa-shopping-bag fa-3x mr-1 mr-sm-3"></span>
+                            <p class="text-secondary text-muted"> <span class="font-weight-bold">Store Locator </span> <br>Find the nearest store </p>
                         </div>
 
                         <!--Single block of interactivity-->
-                        <div>
+                        <div class="mx-2 mx-md-5 px-md-3 d-flex align-items-start">
                             <!--icons-->
-                            <p class="text-light"> <span class="font-weight-bold">Start a Chat</span> <br>For general inquiries </p>
+                            <span class="fa fa-comments-o fa-3x mr-1 mr-sm-3"></span>
+                            <p class="text-secondary text-muted"> <span class="font-weight-bold">Start a Chat</span> <br>For general inquiries </p>
                         </div>
                     </div>
                 <!--end Block interactivity-->
 
                 <!--Block contact-->
-                    <div class="text-white">
+                    <div class="text-white small px-sm-5 py-sm-4 d-none d-md-flex flex-wrap justify-content-between" id="contact-us-block_web">
                         <!--Help-->
-                            <div>
-                                <p class="colorSingle1">Help</p>
+                            <div class="mx-3 my-4">
+                                <p class="colorSingle1 font-weight-bold mb-5">Help</p>
                                 <p>Frequently Asked Questions</p>
                                 <p>Contact Us</p>
                                 <p>Delivery Information</p>
@@ -891,8 +931,8 @@
                         <!--end Help-->
 
                         <!--Shopping with us-->
-                            <div>
-                                <p class="colorSingle1">Shopping With Us</p>
+                            <div class="mx-3 my-4">
+                                <p class="colorSingle1 font-weight-bold mb-5">Shopping With Us</p>
                                 <p>Origami Unlimited</p>
                                 <p>Evouchers</p>
                                 <p>Gift Cards</p>
@@ -902,8 +942,8 @@
                         <!--end Shopping with us-->
 
                         <!--Privacy & legal-->
-                            <div>
-                                <p class="colorSingle1">Privacy & Legal</p>
+                            <div class="mx-3 my-4">
+                                <p class="colorSingle1 font-weight-bold mb-5">Privacy & Legal</p>
                                 <p>Cookies & Privacy Policy</p>
                                 <p>Terms & Conditions</p>
                                 <p>The Company</p>
@@ -913,26 +953,117 @@
                         <!--end Privacy & legal-->
 
                         <!--Contact-form-->
-                            <div class="text-center">
-                                <textarea cols="30" rows="10">
-                                    Type Message
+                            <div class="mx-3 my-4 d-none d-md-block">
+                                <p class="h4 text-center">Contact us</p>
+                                <textarea class="form-control bg-transparent text-white-50 my-5" rows="5" cols="40">Type Message
                                 </textarea>
-                                <button class="btn rounded-pill bgColor-btn">Send Message</button>
+                                <button class="btn btn-block text-white rounded-pill bgColor-btn">Send Message</button>
                             </div>
                         <!--end Contact-form-->
                     </div>
                 <!--end Block contact-->
 
-                <!--Footer-->
-                    <div class="text-white">
-                        <!--Copyright-->
-                        <div>© 2020 Origami Retail Ltd. All Rights Reserved.</div>
-
-                        <!--Icons contact-->
-                        <div>
-                            <!--icons-->
+                <!--Block contact (mobile view)-->
+                <div class="d-block d-md-none py-3 text-white" id="contact-us-block_mobile">
+                    
+                    <!--help-->
+                    <div>
+                        <div class="pos-f-t">
+                            <nav class="mx-3">
+                                <button class="navbar-toggler w-100 text-white d-flex justify-content-between" data-toggle="collapse" data-target="#help" aria-controls="navbarToggleExternalContent" aria-expanded="false">
+                                    <span>HELP</span>
+                                    <span class="fa fa-chevron-down"></span>
+                                </button>
+                            </nav>
+                        </div>
+                        <div class="pos-f-t">
+                            <div class="collapse" id="help">
+                                <div class="d-flex flex-column justify-content-center m-auto">
+                                    <span class="border-bottom d-inline-block mx-auto">Frequently Asked Questions</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Contact Us</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Delivery Information</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Arrange A Return</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Products Recall</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Site Map</span>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
+                    <!--end help-->
+                    
+                    <!--privacy and legacy-->
+                    <div class="my-3">
+                        <div class="pos-f-t">
+                            <nav class="px-3">
+                                <button class="navbar-toggler w-100 text-white d-flex justify-content-between" data-toggle="collapse" data-target="#privacy_and_legal" aria-controls="navbarToggleExternalContent" aria-expanded="false">
+                                    <span>PRIVACY AND LEGAL</span>
+                                    <span class="fa fa-chevron-down"></span>
+                                </button>
+                            </nav>
+                        </div>
+                        <div class="pos-f-t">
+                            <div class="collapse" id="privacy_and_legal">
+                                <div class="d-flex flex-column justify-content-center m-auto">
+                                    <span class="border-bottom d-inline-block mx-auto">Cookies & Privacy Policy</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Terms & Conditions</span>
+                                    <span class="border-bottom d-inline-block mx-auto">The Company</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Media & Press</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Next Careers</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--end privacy and legacy-->
+
+                    <!--others services-->
+                    <div>
+                        <div class="pos-f-t">
+                            <nav class="px-3">
+                                <button class="navbar-toggler w-100 text-white d-flex justify-content-between" data-toggle="collapse" data-target="#other_services" aria-controls="navbarToggleExternalContent" aria-expanded="false">
+                                    <span>OTHER SERVICES</span>
+                                    <span class="fa fa-chevron-down"></span>
+                                </button>
+                            </nav>
+                        </div>
+                        <div class="pos-f-t">
+                            <div class="collapse" id="other_services">
+                                <div class="d-flex flex-column justify-content-center m-auto">
+                                    <span class="border-bottom d-inline-block mx-auto">Origami Unlimited</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Evouchers</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Gift Cards</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Gift Experiences</span>
+                                    <span class="border-bottom d-inline-block mx-auto">Flowers, Plants & Wine</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--end others services-->
+
+
+                </div>
+                <!--end Block contact (mobile view)-->
+
+                <!--Footer-->
+                    <div class="mt-2 px-5 py-3 small bgColor-btn border-top border-secondary d-flex justify-content-between align-items-center">
+                        <!--Copyright-->
+                        <div class="d-none d-md-block text-white" >© 2020 Origami Retail Ltd. All Rights Reserved.</div>
+
+                        <!--Icons contact-->
+                        <div class="d-flex justify-content-between col-8 col-md-4 m-auto m-md-0">
+                            <!--icons-->
+                            <span class="text-white text-center media-icon fa fa-instagram fa-2x mx-2"></span>
+                            <span class="text-white text-center media-icon fa fa-twitter fa-2x mx-2"></span>
+                            <span class="text-white text-center media-icon fa fa-facebook-square fa-2x mx-2"></span>
+                            <span class="text-white text-center media-icon fa fa-pinterest fa-2x mx-2"></span>
+                            <span class="text-white text-center media-icon fa fa-youtube-play fa-2x mx-2"></span>
+                        </div>
+                    </div>
+                    
+                    <!--Copyright (mobile view)-->
+                    <div class="d-md-none small text-primary bg-white text-center p-3">© 2020 Origami Retail Ltd. All Rights Reserved.</div>
                 <!--end Footer-->
             </div>
         <!--end Contact-us-->
