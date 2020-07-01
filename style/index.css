@@ -103,3 +103,10 @@
     border-bottom: solid 2px #E5B710;
 }
 /*end Section Products*/
+
+/*Section superfluous*/
+#superfluous {
+    background: url('images/massage-baton.jpg') center border-box;
+    background-size: cover;
+}
+/*end Section superfluous*/
