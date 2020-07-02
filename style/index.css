@@ -78,6 +78,7 @@
 #section-home {
     border-top: solid lightgrey 3px;
     background: url("images/gomage.png") center border-box;
+    background-size: cover;
 }
 
 #section-home  .div-nav {
@@ -106,6 +107,25 @@
 #about-us .about-us-imgs:last-child {
     top: -15%;
     z-index: 1;
+}
+
+
+.about-us_icon-box1 {
+    width: 180px;
+    height: 180px;
+    background: url('images/femme.png') border-box 30% no-repeat, url('images/homme.png') no-repeat 70%, #E5B710;
+}
+
+.about-us_icon-box2 {
+    width: 180px;
+    height: 180px;
+    background: url('images/stone.png') border-box center no-repeat, #E5B710;
+}
+
+.about-us_icon-box3 {
+    width: 180px;
+    height: 180px;
+    background: url('images/mains-bas.png') border-box center 80% no-repeat, url('images/mains-haut.png') no-repeat center 40%, #E5B710;
 }
 /*end Section About us*/
 
